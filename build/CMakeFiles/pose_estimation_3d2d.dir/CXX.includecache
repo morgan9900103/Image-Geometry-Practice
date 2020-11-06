@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/morganlee/slambook_practice/ch7/pose_estimation_3d2d.cpp
+iostream
+-
+opencv2/core/core.hpp
+-
+opencv2/features2d/features2d.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/calib3d/calib3d.hpp
+-
+eigen3/Eigen/Core
+-
+eigen3/Eigen/Geometry
+-
+g2o/core/base_vertex.h
+-
+g2o/core/base_unary_edge.h
+-
+g2o/core/block_solver.h
+-
+g2o/core/optimization_algorithm_levenberg.h
+-
+g2o/solvers/csparse/linear_solver_csparse.h
+-
+g2o/types/sba/types_six_dof_expmap.h
+-
+chrono
+-
+
